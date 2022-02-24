@@ -55,7 +55,7 @@ class Simple_drawing_window2(QWidget):
         p.drawPixmap(QRect(200, 100, 320, 320), self.rabbit)
         p.end()
         
- class Simple_drawing_window3(QWidget):
+class Simple_drawing_window3(QWidget):
     def __init__(self):
         QWidget.__init__(self, None)
         self.setWindowTitle("Simple Drawing")
