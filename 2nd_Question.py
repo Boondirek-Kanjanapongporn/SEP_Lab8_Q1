@@ -62,3 +62,9 @@ class SPP(QWidget):
         self.clear_bt.setFont(font)
         self.clear_bt.setGeometry(0, 280, 500, 30)
         self.clear_bt.clicked.connect(self.drawWindow.clear)
+ 
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    view = SPP()
+    view.show()
+    sys.exit(app.exec())
